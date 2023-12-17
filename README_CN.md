@@ -90,7 +90,7 @@ export url='https://raw.githubusercontent.com/juewuy/ShellCrash/master' && wget 
 export url='https://fastly.jsdelivr.net/gh/juewuy/ShellCrash@master' && wget -q --no-check-certificate -O /tmp/install.sh $url/install.sh  && sh /tmp/install.sh && source /etc/profile &> /dev/null
 ```
 
-~**老旧设备使用低版本wge安装**：<br>
+~**老旧设备使用低版本wget安装**：<br>
 
 ```Shell
 #作者私人http内测源
